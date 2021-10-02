@@ -29,27 +29,42 @@
 <body>
 	<header class="header">
   <div class="header__container container">
-    <div class="header__wrapper">
-      <a class="header__logo logo" aria-label="Логотип питомника Мейн Кунов">
-        Логотип питомника Мейн Кунов
-      </a>
-      <ul class="header__socials socials">
-        <li class="socials-item">
-          <a class="socials-link" href="#">VK</a>
-        </li>
-        <li class="socials-item">
-          <a class="socials-link" href="#">Twitter</a>
-        </li>
-        <li class="socials-item">
-          <a class="socials-link" href="#">Facebook</a>
-        </li>
-      </ul>
-      <div class="header__content">
-        <p class="header__city">Новосибирск</p>
-        <h1 class="header__title">Питомник Мейн-Кунов</h1>
-        <p class="header__lead">Первый питомник с расширенным спектром услуг</p>
-        <a href="#" class="header__button">Смотреть котиков</a>
-      </div>
+    <a class="header__logo logo" aria-label="Логотип питомника Мейн Кунов">
+      <svg width="55" height="25">
+        <use xlink:href="img/sprite.svg#sprite--crown"></use>
+      </svg>
+    </a>
+    <ul class="header__socials socials">
+      <li class="socials-item">
+        <a class="socials-link" href="#">
+          <span class="visually-hidden">VK</span>
+          <svg width="13" height="8">
+            <use xlink:href="img/sprite.svg#sprite--vk"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials-item">
+        <a class="socials-link" href="#">
+          <span class="visually-hidden">Twitter</span>
+          <svg width="16" height="11">
+            <use xlink:href="img/sprite.svg#sprite--twitter"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="socials-item">
+        <a class="socials-link" href="#">
+          <span class="visually-hidden">Facebook</span>
+          <svg width="6" height="11">
+            <use xlink:href="img/sprite.svg#sprite--facebook"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <div class="header__content">
+      <p class="header__city">Новосибирск</p>
+      <h1 class="header__title">Питомник Мейн-Кунов</h1>
+      <p class="header__lead">Первый питомник с расширенным спектром услуг</p>
+      <a href="#" class="header__button">Смотреть котиков</a>
     </div>
   </div>
 </header>
