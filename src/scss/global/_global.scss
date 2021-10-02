@@ -40,6 +40,7 @@
 
 html {
   font-size: 16px;
+  line-height: 1.5;
 }
 
 html,
@@ -51,6 +52,7 @@ body {
 body {
   font-size: 1rem;
   background-color: #151313;
+  font-family: "Roboto", "Arial", sans-serif;
 }
 
 ul,
@@ -68,4 +70,18 @@ h6 {
 
 a {
   text-decoration: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
