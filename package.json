@@ -39,5 +39,7 @@
     "require-dir": "^1.2.0",
     "vinyl-ftp": "^0.6.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "csscomb": "^4.3.0"
+  }
 }
