@@ -3,3 +3,7 @@ package-lock.json
 yarn.lock
 process.json
 .idea/
+node_modules/csscomb/config/csscomb.json
+/csscomb
+/csscomb.cmd
+/csscomb.ps1
